@@ -1,0 +1,74 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.right-content {
+  text-transform: capitalize;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.leftImage img {
+  vertical-align: middle;
+  width: 100%;
+  max-width: 70%;
+  background: #fbeed8;
+  border-radius: 6px;
+  padding: 2rem;
+  float: right;
+}
+
+
+.right-content h1 {
+font-size: 1.2rem;
+font-weight: 600;
+font-family: sans-serif;
+margin: 10px 0;
+text-align: left;
+text-transform: capitalize;
+}
+
+.right-content h2 {
+font-size: 1rem;
+font-weight: 500;
+color: #6a6a6a;
+text-transform: capitalize;
+text-align: left;
+}
+
+
+.right-content p {
+margin-top: 0;
+margin-bottom: 1rem;
+text-align: left;
+text-transform: capitalize;
+font-size: 14px;
+font-family: sans-serif;
+color: #666666;
+padding-right: 13em;
+}
+
+button.outerbtn {
+box-shadow: none;
+border: 1px solid #f1b295;
+background: #e7a282;
+color: white;
+border-radius: 4px;
+}
+
+.right-content strong {
+font-weight: bolder;
+color: black;
+font-size: 1rem;
+margin-right: 10px;
+}
